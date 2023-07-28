@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Tweet Current Page",
-  "description": "現在表示しているサイトをツイートできるシンプルな Chrome 拡張機能。",
+  "name": "Auto Answer App",
+  "description": "Moddle対応拡張機能。小テストで自動で解答を出力する拡張機能。",
   "version": "0.1.0",
   "icons": {
     "16": "icon_16.png",
