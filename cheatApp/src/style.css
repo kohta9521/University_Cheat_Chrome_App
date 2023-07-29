@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   width: 600px;
-  height: 600px;
+  min-height: 500px;
   border-radius: 30px;
 }
 .container {
@@ -58,15 +58,35 @@ body {
 }
 
 .addButton {
-  width: 50%;
-  height: 30px;
+  width: 60%;
+  height: 50px;
   margin: 30px auto;
   border-radius: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: #00bfff;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.addButton:hover {
+  background-color: #87cefa;
 }
 
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+}
 .qtextBox {
   width: 100%;
   min-height: 40px;
+  padding: 10px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+}
+.answerBox {
+  width: 100%;
+  min-height: 60px;
   padding: 10px;
   border: 0.5px solid gray;
   border-radius: 10px;
