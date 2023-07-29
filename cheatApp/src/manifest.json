@@ -1,8 +1,16 @@
 {
-  "name": "fuckyout",
+  "name": "Moodle Auto Answer Bot",
   "version": "1.0.0",
   "manifest_version": 3,
-  "description": "Sample Chrome Extension",
+  "description": "Moodle用の自動解答生成アプリ(学習院大学専用)",
+  "icons": {
+    "16": "icon/testing.png",
+    "48": "icon/testing.png",
+    "126": "icon/testing.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
   "content_scripts": [{
     "matches": ["https://moodle.univ.gakushuin.ac.jp/*"],
     "js": [
