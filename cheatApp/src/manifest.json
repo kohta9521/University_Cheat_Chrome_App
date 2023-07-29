@@ -8,6 +8,9 @@
     "48": "icon/testing.png",
     "126": "icon/testing.png"
   },
+  "action": {
+    "default_popup": "index.html"
+  },
   "content_scripts": [{
     "matches": ["https://moodle.univ.gakushuin.ac.jp/*"],
     "js": [
