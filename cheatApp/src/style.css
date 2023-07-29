@@ -56,3 +56,18 @@ body {
   font-size: 9px;
   color: gray;
 }
+
+.addButton {
+  width: 50%;
+  height: 30px;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.qtextBox {
+  width: 100%;
+  min-height: 40px;
+  padding: 10px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+}
