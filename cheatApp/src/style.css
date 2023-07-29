@@ -1,6 +1,93 @@
 body {
-  width: 500px;
-  height: 1000px;
-  min-width: 300px;
-  background-color: gray;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  min-height: 500px;
+  border-radius: 30px;
+}
+.container {
+  width: 90%;
+  height: 90%;
+  margin: 5% auto;
+  text-align: center;
+}
+.header {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00bfff;
+}
+.header-logo {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.header-btn {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 550;
+  cursor: pointer;
+}
+.header-btn:hover {
+  background-color: white;
+}
+.box-title {
+  font-size: 27px;
+  font-weight: 650;
+}
+.box-text {
+  width: 100%;
+  font-weigth: 550;
+  font-size: 12px;
+  line-height: 20px;
+}
+.bottom-text {
+  font-size: 9px;
+  color: gray;
+}
+
+.addButton {
+  width: 60%;
+  height: 50px;
+  margin: 30px auto;
+  border-radius: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: #00bfff;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.addButton:hover {
+  background-color: #87cefa;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.qtextBox {
+  width: 100%;
+  min-height: 40px;
+  padding: 10px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+}
+.answerBox {
+  width: 100%;
+  min-height: 60px;
+  padding: 10px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
 }
