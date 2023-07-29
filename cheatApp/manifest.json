@@ -1,0 +1,26 @@
+{
+  "name": "DRMaker",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "個人日報用",
+  "icons": {
+    "16": "icon/testing.png",
+    "48": "icon/testing.png",
+    "128": "icon/testing.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "background",
+    "contextMenus"
+  ],
+  "content_scripts": [{
+    "js": [
+      "js/script.js"
+    ]
+  }],
+  "browser_action": {
+    "default_title": "DRMaker",
+    "default_popup": "popup/popup.html"
+  }
+}
