@@ -14,7 +14,7 @@
   "content_scripts": [{
     "matches": ["https://moodle.univ.gakushuin.ac.jp/*"],
     "js": [
-      "content.js"
+      "test.ts"
     ]
   }]
 }
